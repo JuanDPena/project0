@@ -1,0 +1,498 @@
+/* ====================  General Editing (1) ==================== */
+body {
+  margin: 0;
+}
+
+table, th, td {
+  border: 2px solid black;
+  padding: 5px;
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  border-collapse: collapse;
+}
+
+table {
+  width: 90%;
+}
+
+li {
+  padding: 3px 5px 3px 5px;
+  list-style-position: inside;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* ====================  General Editing (2) ==================== */
+/* ==== --- === --- === ---  Porsche CSS (1) ==== --- === --- === ---  */
+/* ====================  Classes Editing (1) ==================== */
+.PorscheBody {
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.PorscheMainTitle {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: #C29049;
+  color: #000000;
+  border-bottom: 3px solid #A43131;
+  padding: 10px 0 10px 0;
+  margin-top: 0;
+}
+
+.modelPorsche {
+  text-align: center;
+  font-size: 25px;
+  color: #A43131;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: "Georgia", Times, serif;
+}
+
+.PorscheTableDesign {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  border-collapse: collapse;
+}
+
+.CategoryDesign {
+  text-align: center;
+  font-size: 17px;
+}
+
+.TableHeadingDesigns {
+  padding: 10px 0 10px 0 !important;
+  font-size: 20px !important;
+}
+
+.PorscheBullet {
+  list-style: none;
+  padding-left: 15px;
+  text-indent: 7px;
+}
+
+.PorscheBullet li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.PorscheBullet li:before {
+  content: '';
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  background-image: url('../images/PorscheBullet.jpg');
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.PorscheBulletTwo {
+  list-style: none;
+  padding-left: 15px;
+  text-indent: 7px;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.PorscheBulletTwo li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.PorscheBulletTwo li:before {
+  content: '';
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  background-image: url('../images/PorscheBullet.jpg');
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.CarInfoEdit {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* ====================  Classes Editing (2) ==================== */
+/* ====================   ID's  Editing (1)  ==================== */
+#lessMarginPorsche {
+  margin-bottom: 7px;
+}
+
+/* ====================   ID's  Editing (2)  ==================== */
+/* ==== --- === --- === ---  Porsche CSS (2) ==== --- === --- === ---  */
+/* ==== --- === --- === ---  BMW CSS (1) ==== --- === --- === ---  */
+/* ====================  Classes Editing (1) ==================== */
+.BMWBody {
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.BMWTitle {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Georgia", Times, serif;
+  font-size: 30px;
+  background-color: #031E49;
+  color: #EE0405;
+  border-bottom: 3px solid #4599FE;
+  padding: 10px 0 10px 0;
+  margin-top: 0;
+}
+
+.modelBMW {
+  text-align: center;
+  font-size: 25px;
+  color: #031E49;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: "Georgia", Times, serif;
+}
+
+.BMWBullet {
+  list-style: none;
+  padding-left: 15px;
+  text-indent: 7px;
+}
+
+.BMWBullet li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.BMWBullet li:before {
+  content: '';
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  background-image: url('../images/BMWLogo.jpg');
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.BMWBulletTwo {
+  list-style: none;
+  padding-left: 15px;
+  text-indent: 7px;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.BMWBulletTwo li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.BMWBulletTwo li:before {
+  content: '';
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  background-image: url('../images/BMWLogo.jpg');
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.HeadingUsageExample {
+  margin-left: 30px;
+  font-size: 17.5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* ====================  Classes Editing (2) ==================== */
+/* ====================   ID's  Editing (1)  ==================== */
+/* ====================   ID's  Editing (2)  ==================== */
+/* ==== --- === --- === ---  BMW CSS (2) ==== --- === --- === ---  */
+/* ==== --- === --- === ---  Mercedes CSS (1) ==== --- === --- === ---  */
+/* ====================  Classes Editing (1) ==================== */
+.MercedesBody {
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.MercedesTitle {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Georgia", Times, serif;
+  font-size: 30px;
+  background-color: #aaa9ad;
+  color: #000000;
+  border-bottom: 3px solid #666;
+  padding: 10px 0 10px 0;
+  margin-top: 0;
+}
+
+.modelMercedes {
+  text-align: center;
+  font-size: 25px;
+  color: #000000;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: "Georgia", Times, serif;
+}
+
+.MercedesBullet {
+  list-style: none;
+  padding-left: 15px;
+  text-indent: 7px;
+}
+
+.MercedesBullet li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.MercedesBullet li:before {
+  content: '';
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  background-image: url('../images/MercedesLogo.jpg');
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.MercedesBulletTwo {
+  list-style: none;
+  padding-left: 15px;
+  text-indent: 7px;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.MercedesBulletTwo li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.MercedesBulletTwo li:before {
+  content: '';
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  background-image: url('../images/MercedesLogo.jpg');
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.HeadingUsageExample {
+  margin-left: 30px;
+  font-size: 17.5px;
+  margin-bottom: 10px;
+}
+
+/* ====================  Classes Editing (2) ==================== */
+/* ====================   ID's  Editing (1)  ==================== */
+/* ====================   ID's  Editing (2)  ==================== */
+/* ==== --- === --- === ---  Mercedes CSS (2) ==== --- === --- === ---  */
+/* ==== --- === --- === ---  Audi CSS (1) ==== --- === --- === ---  */
+/* ====================  Classes Editing (1) ==================== */
+.AudiBody {
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.AudiTitle {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Georgia", Times, serif;
+  font-size: 30px;
+  background-color: #C8102E;
+  color: #000000;
+  border-bottom: 3px solid #000000;
+  padding: 10px 0 10px 0;
+  margin-top: 0;
+}
+
+.modelAudi {
+  text-align: center;
+  font-size: 25px;
+  color: #C8102E;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: "Georgia", Times, serif;
+}
+
+.AudiBullet {
+  list-style: none;
+  padding-left: 15px;
+  text-indent: 7px;
+}
+
+.AudiBullet li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.AudiBullet li:before {
+  content: '';
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  background-image: url('../images/AudiBullet.jpg');
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.modelAudiBulletTwo {
+  list-style: none;
+  padding-left: 15px;
+  text-indent: 7px;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.AudiBulletTwo li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.AudiBulletTwo li:before {
+  content: '';
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  background-image: url('../images/AudiBullet.jpg');
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* ====================  Classes Editing (2) ==================== */
+/* ====================   ID's  Editing (1)  ==================== */
+#TwoColumnTableOne {
+  columns: 2;
+}
+
+#OnlyUniqueData {
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: justify;
+  line-height: 1.3;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* ====================   ID's  Editing (2)  ==================== */
+/* ==== --- === --- === ---  Audi CSS (2) ==== --- === --- === ---  */
+/* ==== --- === --- === ---  Other Cars CSS (1) ==== --- === --- === ---  */
+/* ====================  Classes Editing (1) ==================== */
+.OthersBody {
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.OthersTitle {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Georgia", Times, serif;
+  font-size: 30px;
+  background-color: #FDFAF9;
+  color: #1F2F57;
+  border-bottom: 3px solid #af2101;
+  padding: 10px 0 10px 0;
+  margin-top: 0;
+}
+
+.modelOther {
+  text-align: center;
+  font-size: 25px;
+  color: #1F2F57;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: "Georgia", Times, serif;
+}
+
+.OthersBullet {
+  list-style: none;
+  padding-left: 15px;
+  text-indent: 7px;
+}
+
+.OthersBullet li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.OthersBullet li:before {
+  content: '';
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  background-image: url('../images/VolkswagenBullet.jpg');
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.modelOthersBulletTwo {
+  list-style: none;
+  padding-left: 15px;
+  text-indent: 7px;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.OthersBulletTwo li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.OthersBulletTwo li:before {
+  content: '';
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  background-image: url('../images/VolkswagenBullet.jpg');
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* ====================  Classes Editing (2) ==================== */
+/* ====================   ID's  Editing (1)  ==================== */
+/* ==== --- === --- === ---  Other Cars CSS (2) ==== --- === --- === ---  */
