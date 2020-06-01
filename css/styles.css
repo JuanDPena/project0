@@ -1,0 +1,162 @@
+/* ---------- General Styling (1) ---------- */
+body {
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+ul {
+  counter-reset: index;
+  padding: 0;
+  max-width: 300px;
+  text-align: center;
+}
+
+/* ---------- General Styling (2) ---------- */
+/* Media Edits (1) */
+
+@media screen {
+  body {
+    margin: 0;
+    max-width: 100%
+  }
+
+  .imageEditing {
+    vertical-align: middle;
+  }
+}
+
+/* Media Edits (2) */
+/* ---------- Class Styling (1) ---------- */
+.mainTitle {
+  top: 100px;
+  margin-top: 0;
+}
+
+.topHeader {
+  text-align: center;
+  font-size: 20px;
+  height: 100px;
+  margin: auto;
+}
+
+.headerBackground {
+  position: absolute;
+  height: 125px;
+  width: 100%;
+  opacity: 0.3;
+  background: linear-gradient(180deg, #000 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(180deg, #dd0000 66%, #ffc608 0%);
+}
+
+.titleAndDescription {
+  text-align: center;
+  font-family: Verdana, Geneva, sans-serif;
+  padding-top: 40px;
+}
+
+.headerInfo {
+  width: auto;
+  text-align: center;
+  margin-top: 25px;
+  font-size: 30px;
+}
+
+.descriptionOfWebsite {
+  margin: 40px 45px 5px 45px;
+  font-size: 17px;
+  text-align: center;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.imageEditing {
+  width: 80%;
+}
+
+.imageEditing:hover {
+  transition: all .2s ease-in-out;
+  transform: scale(1.12);
+}
+
+.Image-LinkBorder {
+  border: 2px solid black;
+  margin: 30px auto 30px auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  height: 500px;
+  background-color: white;
+}
+
+.listOfOtherCars {
+  overflow: hidden;
+}
+
+/* ---------- Class Styling (2) ---------- */
+/* ---------- ID (1) ---------- */
+#importantNote {
+  font-size: 17px;
+  text-align: center;
+  font-family: Verdana, Geneva, sans-serif;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+#mainTitle {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#basic {
+  margin-top: 0;
+  height: 15px;
+}
+
+#titleMarginEditor {
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+#PorscheImageEdit {
+  width: 90%;
+  margin-top: 60px;
+}
+
+#PorscheImageEdit:hover {
+  transition: all .2s ease-in-out;
+  transform: scale(1.11);
+}
+
+#BMWImageEdit {
+  width: 85%;
+  margin-top: 60px;
+}
+
+#MercedesImageEdit {
+  width: 60%;
+  max-width: 800px;
+  margin-top: 90px;
+}
+
+#AudiImageEdit:hover {
+  .imageEditing:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+  }
+}
+
+#AudiImageEdit {
+  width: 60%;
+  max-width: 800px;
+  margin-top: 70px;
+}
+
+#OtherImageEdit {
+  width: 70%;
+  max-width: 800px;
+  margin-top: 60px;
+}
+
+/* ---------- ID (1) ---------- */
